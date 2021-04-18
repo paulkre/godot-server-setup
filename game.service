@@ -1,0 +1,9 @@
+[Unit]
+Description=Service running the Godot game server.
+
+[Service]
+ExecStart=/bin/bash /home/src/start-server.sh
+
+[Install]
+WantedBy=multi-user.target
+
