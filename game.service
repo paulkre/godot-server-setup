@@ -2,6 +2,8 @@
 Description=Service running the Godot game server.
 
 [Service]
+Type=simple
+Restart=always
 ExecStart=/bin/bash /home/admin/start-server.sh
 
 [Install]
